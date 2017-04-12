@@ -30,9 +30,7 @@ enable => 'true',
 require => Package['apache2'],
 }
 }
-class {'tomcat':
-install_from_source => 'false',
-}
+
 }
 
 
